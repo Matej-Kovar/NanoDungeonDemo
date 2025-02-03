@@ -18,20 +18,20 @@ namespace frontend
         public IRenderable[] Content { get; set; }
         public int MaxWidth { get; set; }
         public int MaxHeight { get; set; }
-        public ColoredChar[,] Build()
+        public ConsolePixel[,] RenderElement()
         {
-            List<ColoredChar[,]> content = new List<ColoredChar[,]>();
+            List<ConsolePixel[,]> content = new List<ConsolePixel[,]>();
             foreach (var item in Content)
             {
                 item.MaxWidth = MaxWidth / Content.Length;
-                content.Add(item.Build());
+                content.Add(item.RenderElement());
             }
             int Height = Math.Max(content.Max(item => item.GetLength(0)), MaxHeight);
             int Width = Math.Max(content.Sum(item => item.GetLength(1)), MaxWidth);
-            ColoredChar[,] result =  new ColoredChar[Height, Width];
+            ConsolePixel[,] result =  new ConsolePixel[Height, Width];
             for (int i = 0; i < result.GetLength(0); i++)
             {
-                ColoredChar[,] currentChild = new ColoredChar[0,0];
+                ConsolePixel[,] currentChild = new ConsolePixel[0,0];
                 int offset = 0;
                 for (int j = 0; j < result.GetLength(1); j++)
                 {

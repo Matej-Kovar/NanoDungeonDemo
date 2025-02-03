@@ -8,7 +8,7 @@ namespace frontend
 {
     internal class RenderManager
     {
-        static ColoredChar[,] _CurrentFrame = new ColoredChar[Console.WindowHeight, Console.WindowWidth];
+        static ConsolePixel[,] _CurrentFrame = new ConsolePixel[Console.WindowHeight, Console.WindowWidth];
         static ConsoleColor _CurrentTextColor = ConsoleColor.Gray;
         static ConsoleColor _CurrentBackgroundColor = ConsoleColor.Black;
         public int _FrameHeight;
@@ -24,7 +24,7 @@ namespace frontend
             _OffsetLeft = offsetLeft;
         }
 
-        public void RenderFrame(ColoredChar[,] NewFrame)
+        public void RenderFrame(ConsolePixel[,] NewFrame)
         {
             _FrameHeight = Math.Min(NewFrame.GetLength(0), Console.WindowHeight);
             _FrameWidth = Math.Min(NewFrame.GetLength(1), Console.WindowWidth);

@@ -168,3 +168,4 @@ C:\Users\matej\source\repos\NanoDungeonDemo\NanoDungeonDemo\obj\Debug\net8.0\ref
 C:\Users\matej\source\repos\NanoDungeonDemo\NanoDungeonDemo\obj\Debug\net8.0\frontend.pdb
 C:\Users\matej\source\repos\NanoDungeonDemo\NanoDungeonDemo\obj\Debug\net8.0\frontend.genruntimeconfig.cache
 C:\Users\matej\source\repos\NanoDungeonDemo\NanoDungeonDemo\obj\Debug\net8.0\ref\frontend.dll
+C:\Users\matej\source\repos\NanoDungeonDemo\NanoDungeonDemo\obj\Debug\net8.0\frontend.sourcelink.json

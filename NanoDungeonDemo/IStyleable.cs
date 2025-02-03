@@ -9,6 +9,7 @@ namespace frontend
 {
     internal interface IStyleable
     {
-        public List<Style> Styles { get; set; }
+        public List<string> Styles { get; set; }
+        public List<IProperty> ApplicableProperties { get; set; }
     }
 }

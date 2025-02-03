@@ -6,20 +6,6 @@ class Program
 {
     static void Main()
     {
-        /*
-        ColoredChar[,] currentArray = new ColoredChar[Console.WindowHeight, Console.WindowWidth];
-        ColoredChar[,] newArray = new ColoredChar[Console.WindowHeight, Console.WindowWidth];
-        RenderManager render = new RenderManager();
-        Console.CursorVisible = false;
-        InitializeArray(currentArray, ' ');
-        InitializeArray(newArray, ' ');
-        DisplayFullArray(currentArray);
-        for (int i = 0; i < 1000000; i++)
-        {
-            ChaosNext(newArray);
-            render.RenderFrame(newArray);
-        }
-        */
         Style red = new Style("test", [new frontend.StyleProperties.Color(ConsoleColor.White, ConsoleColor.Red)]);
         Style cyan = new Style("test", [new frontend.StyleProperties.Color(ConsoleColor.White, ConsoleColor.Cyan)]);
         Textbox card1 = new Textbox(["Jaderný reaktor je zařízení, které umožňuje řízené uvolnění jaderné energie, která je následně využívána pro výrobu elektrické energie, výzkum, vzdělávání atd. V principu lze jadernou energii uvolnit 2 rozdílnými způsoby a podle nich lze reaktory rozdělit na:", "štěpný jaderný reaktor – v tomto reaktoru je jaderná energie získávána pomocí štěpení těžkých jader jako 235U, 239Pu a dalších. Tento typ reaktoru ve světě v drtivé většině převažuje[1] a proto se v běžné literatuře i mluvě pod názvem jaderný reaktor téměř výhradně myslí právě tento druh. Patří mezi ně jak reaktory v jaderných elektrárnách, tak reaktory jaderných ponorek i menší výzkumné reaktory pro různé experimenty, výrobu radiofarmak atd."], [red]);
@@ -29,13 +15,13 @@ class Program
         Container container = new Container([card1, card2]);
         //container.MaxWidth = Console.WindowWidth;
         RenderManager render = new RenderManager(Console.WindowHeight, Console.WindowWidth, 0, 0);
-        ColoredChar[,] frame = container.Build();
+        ConsolePixel[,] frame = container.RenderElement();
         render.RenderFrame(frame);
-        frame = container.Build();
+        frame = container.RenderElement();
         render.RenderFrame(frame);
         while (container.MaxWidth > 75)
         {
-            var toRender = container.Build();
+            var toRender = container.RenderElement();
             //render._FrameWidth = toRender.GetLength(0);
             //render._FrameHeight = toRender.GetLength(1);
             render.RenderFrame(toRender);
@@ -49,56 +35,5 @@ class Program
         Console.ReadLine();*/
 
 
-    }
-
-    static void InitializeArray(ColoredChar[,] array, char fillChar)
-    {
-        for (int i = 0; i < array.GetLength(0); i++)
-        {
-            for (int j = 0; j < array.GetLength(1); j++)
-            {
-                array[i, j] = new ColoredChar(fillChar);
-            }
-        }
-    }
-
-    static void ChaosNext(ColoredChar[,] array)
-    {
-        if(Random.Shared.Next(0, 2) < 1)
-        {
-            array[Random.Shared.Next(0, array.GetLength(0)), Random.Shared.Next(0, array.GetLength(1))].Char = (char)Random.Shared.Next(23, 200);
-        }
-        else if (Random.Shared.Next(0, 2) < 1)
-        {
-            array[Random.Shared.Next(0, array.GetLength(0)), Random.Shared.Next(0, array.GetLength(1))].TextColor = (ConsoleColor)Random.Shared.Next(0, 16);
-        }
-        else
-        {
-            array[Random.Shared.Next(0, array.GetLength(0)), Random.Shared.Next(0, array.GetLength(1))].BackgroundColor = (ConsoleColor)Random.Shared.Next(0, 16);
-        }
-    }
-
-    static void RainbowNext(ColoredChar[,] array, int offset)
-    {
-        for (int i = 0; i < array.GetLength(0); i++)
-        {
-            for (int j = 0; j < array.GetLength(1); j++)
-            {
-                array[i, j].BackgroundColor = (ConsoleColor)((i + offset) % 16);
-            }
-        }
-    }
-
-    static void DisplayFullArray(ColoredChar[,] array)
-    {
-        Console.Clear();
-        for (int i = 0; i < array.GetLength(0); i++)
-        {
-            for (int j = 0; j < array.GetLength(1); j++)
-            {
-                Console.Write(array[i, j].Char);
-            }
-            Console.WriteLine();
-        }
     }
 }

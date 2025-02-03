@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\matej\\source\\repos\\NanoDungeonDemo\\NanoDungeonDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1083D727-C6AE-432D-8E95-D6885548260D}|frontend.csproj|c:\\users\\matej\\source\\repos\\nanodungeondemo\\nanodungeondemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1083D727-C6AE-432D-8E95-D6885548260D}|frontend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1083D727-C6AE-432D-8E95-D6885548260D}|frontend.csproj|c:\\users\\matej\\source\\repos\\nanodungeondemo\\nanodungeondemo\\properties\\directionalproperties\\directionalvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1083D727-C6AE-432D-8E95-D6885548260D}|frontend.csproj|solutionrelative:properties\\directionalproperties\\directionalvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1083D727-C6AE-432D-8E95-D6885548260D}|frontend.csproj|c:\\users\\matej\\source\\repos\\nanodungeondemo\\nanodungeondemo\\properties\\directionalproperties\\directionalproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1083D727-C6AE-432D-8E95-D6885548260D}|frontend.csproj|solutionrelative:properties\\directionalproperties\\directionalproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1083D727-C6AE-432D-8E95-D6885548260D}|frontend.csproj|c:\\users\\matej\\source\\repos\\nanodungeondemo\\nanodungeondemo\\text\\format.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1083D727-C6AE-432D-8E95-D6885548260D}|frontend.csproj|solutionrelative:text\\format.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1083D727-C6AE-432D-8E95-D6885548260D}|frontend.csproj|c:\\users\\matej\\source\\repos\\nanodungeondemo\\nanodungeondemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1083D727-C6AE-432D-8E95-D6885548260D}|frontend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1083D727-C6AE-432D-8E95-D6885548260D}|frontend.csproj|c:\\users\\matej\\source\\repos\\nanodungeondemo\\nanodungeondemo\\properties\\iproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1083D727-C6AE-432D-8E95-D6885548260D}|frontend.csproj|solutionrelative:properties\\iproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1083D727-C6AE-432D-8E95-D6885548260D}|frontend.csproj|c:\\users\\matej\\source\\repos\\nanodungeondemo\\nanodungeondemo\\irenderable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1083D727-C6AE-432D-8E95-D6885548260D}|frontend.csproj|solutionrelative:irenderable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1083D727-C6AE-432D-8E95-D6885548260D}|frontend.csproj|c:\\users\\matej\\source\\repos\\nanodungeondemo\\nanodungeondemo\\istyleable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1083D727-C6AE-432D-8E95-D6885548260D}|frontend.csproj|solutionrelative:istyleable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1083D727-C6AE-432D-8E95-D6885548260D}|frontend.csproj|c:\\users\\matej\\source\\repos\\nanodungeondemo\\nanodungeondemo\\rendermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1083D727-C6AE-432D-8E95-D6885548260D}|frontend.csproj|solutionrelative:rendermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,7 +50,81 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DirectionalValues.cs",
+              "DocumentMoniker": "C:\\Users\\matej\\source\\repos\\NanoDungeonDemo\\NanoDungeonDemo\\Properties\\DirectionalProperties\\DirectionalValues.cs",
+              "RelativeDocumentMoniker": "Properties\\DirectionalProperties\\DirectionalValues.cs",
+              "ToolTip": "C:\\Users\\matej\\source\\repos\\NanoDungeonDemo\\NanoDungeonDemo\\Properties\\DirectionalProperties\\DirectionalValues.cs",
+              "RelativeToolTip": "Properties\\DirectionalProperties\\DirectionalValues.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T12:41:50.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DirectionalProperty.cs",
+              "DocumentMoniker": "C:\\Users\\matej\\source\\repos\\NanoDungeonDemo\\NanoDungeonDemo\\Properties\\DirectionalProperties\\DirectionalProperty.cs",
+              "RelativeDocumentMoniker": "Properties\\DirectionalProperties\\DirectionalProperty.cs",
+              "ToolTip": "C:\\Users\\matej\\source\\repos\\NanoDungeonDemo\\NanoDungeonDemo\\Properties\\DirectionalProperties\\DirectionalProperty.cs",
+              "RelativeToolTip": "Properties\\DirectionalProperties\\DirectionalProperty.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T08:53:01.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IProperty.cs",
+              "DocumentMoniker": "C:\\Users\\matej\\source\\repos\\NanoDungeonDemo\\NanoDungeonDemo\\Properties\\IProperty.cs",
+              "RelativeDocumentMoniker": "Properties\\IProperty.cs",
+              "ToolTip": "C:\\Users\\matej\\source\\repos\\NanoDungeonDemo\\NanoDungeonDemo\\Properties\\IProperty.cs",
+              "RelativeToolTip": "Properties\\IProperty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T12:10:10.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IStyleable.cs",
+              "DocumentMoniker": "C:\\Users\\matej\\source\\repos\\NanoDungeonDemo\\NanoDungeonDemo\\IStyleable.cs",
+              "RelativeDocumentMoniker": "IStyleable.cs",
+              "ToolTip": "C:\\Users\\matej\\source\\repos\\NanoDungeonDemo\\NanoDungeonDemo\\IStyleable.cs",
+              "RelativeToolTip": "IStyleable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T16:16:46.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRenderable.cs",
+              "DocumentMoniker": "C:\\Users\\matej\\source\\repos\\NanoDungeonDemo\\NanoDungeonDemo\\IRenderable.cs",
+              "RelativeDocumentMoniker": "IRenderable.cs",
+              "ToolTip": "C:\\Users\\matej\\source\\repos\\NanoDungeonDemo\\NanoDungeonDemo\\IRenderable.cs",
+              "RelativeToolTip": "IRenderable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T16:12:48.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RenderManager.cs",
+              "DocumentMoniker": "C:\\Users\\matej\\source\\repos\\NanoDungeonDemo\\NanoDungeonDemo\\RenderManager.cs",
+              "RelativeDocumentMoniker": "RenderManager.cs",
+              "ToolTip": "C:\\Users\\matej\\source\\repos\\NanoDungeonDemo\\NanoDungeonDemo\\RenderManager.cs",
+              "RelativeToolTip": "RenderManager.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwD0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T15:15:34.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Format.cs",
               "DocumentMoniker": "C:\\Users\\matej\\source\\repos\\NanoDungeonDemo\\NanoDungeonDemo\\Text\\Format.cs",
               "RelativeDocumentMoniker": "Text\\Format.cs",
@@ -34,21 +132,19 @@
               "RelativeToolTip": "Text\\Format.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T15:11:40.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T15:11:40.208Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\matej\\source\\repos\\NanoDungeonDemo\\NanoDungeonDemo\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\matej\\source\\repos\\NanoDungeonDemo\\NanoDungeonDemo\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T15:11:14.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T15:11:14.541Z"
             }
           ]
         }

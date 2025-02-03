@@ -8,8 +8,10 @@ namespace frontend
 {
     internal interface IRenderable
     {
-        public int MaxWidth { get; set; }
-        public int MaxHeight { get; set; }
-        public ColoredChar[,] Build(); //přepisuje strukturu do ColoredChar[,]
+        public bool Modified { get; set; }
+        public string ID { get; set; }
+        public ConsolePixel[,] RenderElement();
+        public ConsolePixel[,] InitializeElement();
+        public ConsolePixel[,] UpdateElement();
     }
 }

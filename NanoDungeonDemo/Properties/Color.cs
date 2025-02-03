@@ -4,16 +4,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using frontend;
 
 namespace frontend.StyleProperties
 {
-    internal class Color : IStyleProperty
+    internal class Color : IProperty
     {
         public static int Order = 1;
         public ConsoleColor Background;
         public ConsoleColor Text;
-        public ColoredChar[,] Apply(ColoredChar[,] subframe)
+        public ConsolePixel[,] Apply(ConsolePixel[,] subframe)
         {
             for (int i = 0; i < subframe.GetLength(0); i++)
             {

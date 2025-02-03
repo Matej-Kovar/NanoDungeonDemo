@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace frontend.StyleProperties
 {
-    internal class Gap : IStyleProperty
+    internal class Gap : IProperty
     {
         public Gap(int gap = 1)
         {

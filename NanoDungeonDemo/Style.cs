@@ -9,11 +9,11 @@ namespace frontend
     internal class Style
     {
         public string ID {  get; set; }
-        public IStyleProperty[] Properties { get; set; }
+        public IProperty[] Properties { get; set; }
 
-        public static IStyleProperty[] JoinStyles(List<Style> styles)
+        public static IProperty[] JoinStyles(List<Style> styles)
         {
-            var joinedStyles = (IStyleProperty[])Defaults.Clone();
+            var joinedStyles = (IProperty[])Defaults.Clone();
             foreach (var style in styles)
             {
                 foreach (var property in style.Properties)
@@ -27,7 +27,7 @@ namespace frontend
             }
             return joinedStyles;
         }
-        readonly static IStyleProperty[] Defaults =
+        readonly static IProperty[] Defaults =
         [
             new StyleProperties.Color(),
             new StyleProperties.Margin(),
@@ -35,7 +35,7 @@ namespace frontend
             new StyleProperties.Gap(),
         ];
 
-        public Style(string iD, IStyleProperty[] properties)
+        public Style(string iD, IProperty[] properties)
         {
             ID = iD;
             Properties = properties;

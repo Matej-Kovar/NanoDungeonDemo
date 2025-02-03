@@ -19,7 +19,7 @@ namespace frontend
         public List<Style> Styles { get; set; }
         public int MaxWidth { get; set; }
         public int MaxHeight { get; set; }
-        public ColoredChar[,] Build()
+        public ConsolePixel[,] RenderElement()
         {
             int Width = MaxWidth;
             int Height = MaxHeight;
@@ -43,7 +43,7 @@ namespace frontend
 
             Height += margin.Top + margin.Bottom + padding.Top + padding.Bottom;
 
-            var result = new ColoredChar[Height, MaxWidth];
+            var result = new ConsolePixel[Height, MaxWidth];
 
             for (int i = 0; i < Height; i++)
             {
@@ -61,15 +61,15 @@ namespace frontend
 
                     if (!isWithinPaddingRow || !isWithinPaddingColumn)
                     {
-                        result[i, j] = new ColoredChar(' ', ConsoleColor.Gray, ConsoleColor.Black);
+                        result[i, j] = new ConsolePixel(' ', ConsoleColor.Gray, ConsoleColor.Black);
                     }
                     else if (!isWithinContentColumn)
                     {
-                        result[i, j] = new ColoredChar(' ', color.Text, color.Background);
+                        result[i, j] = new ConsolePixel(' ', color.Text, color.Background);
                     }
                     else
                     {
-                        result[i, j] = new ColoredChar(rowContent[j - margin.Left - padding.Left], color.Text, color.Background);
+                        result[i, j] = new ConsolePixel(rowContent[j - margin.Left - padding.Left], color.Text, color.Background);
                     }
                 }
             }
